@@ -4,5 +4,5 @@
                   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                   mc:Ignorable="d"
-        Title="WPF-Sample" Height="350" Width="500">
+        Title="WPF-Sample" Height="350" Width="500" Source="WPF-SampleHome.xaml">
 </NavigationWindow>
