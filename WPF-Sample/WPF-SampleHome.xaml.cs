@@ -24,5 +24,12 @@ namespace WPF_Sample
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            // View Expense Report
+            var wPF_SampleReportPage = new WPF_SampleReportPage();
+            this.NavigationService.Navigate(wPF_SampleReportPage);
+        }
     }
 }
