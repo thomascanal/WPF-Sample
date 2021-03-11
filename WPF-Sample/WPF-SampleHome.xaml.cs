@@ -28,8 +28,8 @@ namespace WPF_Sample
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // View Expense Report
-            var wPF_SampleReportPage = new WPF_SampleReportPage();
-            this.NavigationService.Navigate(wPF_SampleReportPage);
+            var wpfSampleReportPage = new WPF_SampleReportPage(this.peopleListBox.SelectedItem);
+            this.NavigationService.Navigate(wpfSampleReportPage);
         }
     }
 }

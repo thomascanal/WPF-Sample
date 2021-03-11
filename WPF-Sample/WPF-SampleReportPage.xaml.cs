@@ -24,5 +24,12 @@ namespace WPF_Sample
         {
             InitializeComponent();
         }
+
+        // Custom constructor to pass expense report data
+        public WPF_SampleReportPage(object data) : this()
+        {
+            // Bind to WPF-Sample Report Data.
+            this.DataContext = data;
+        }
     }
 }
